@@ -1,0 +1,37 @@
+Praktický příklad - zadání TOdoList:
+
+Vytvoření jednoduchého seznamu úkolů podle šablony.
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ToDo List</title>
+<style>
+li {
+width: 200px;
+}
+
+.delete {
+float: right;
+}
+</style>
+</head>
+<body>
+<h1>ToDo List</h1>
+<input type="text">
+<button>add</button>
+
+<ul>
+<li>
+<!-- click on span.delete will remove this item from list -->
+<span class="delete">-</span>
+buy milk
+</li>
+<li>
+<span class="delete">-</span>
+wash dishes
+</li>
+</ul>
+</body>
+</html>
